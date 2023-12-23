@@ -1,0 +1,6 @@
+- name: vars command args
+  hosts: localhost
+  tasks:
+    - name: varaibles typing from commandline args"
+      ansible.builtin.debug:
+        msg: "variables are {{name1}} {{name2}}"
