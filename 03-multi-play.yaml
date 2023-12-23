@@ -5,7 +5,7 @@
     - name: Play 1
       ansible.builtin.debug:
         msg: "Running under task Play 1"
-    -name: Play 2
+    - name: Play 2
       ansible.builtin.debug:
         msg: "Running under task Play 2"
       
