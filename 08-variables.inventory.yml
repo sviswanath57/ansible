@@ -1,5 +1,6 @@
 - name: Get Variables from inventory
   hosts: localhost
-  tasks: Get variables from inve
-    - ansible.builtin.debug:
-      msg: "{{name1}} {{name2}} will be the devops engineer"
+  tasks:
+    - name: Get variables from inve
+      ansible.builtin.debug:
+        msg: "{{name1}} {{name2}} will be the devops engineer"
