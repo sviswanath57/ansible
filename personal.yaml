@@ -1,0 +1,23 @@
+- name: viswanath
+  DOB: "14-11-1988"
+  address:
+    street: "T.B Road"
+    place: allagadda
+    city: nandyal
+  email: s.viswanath57@gmail.com
+
+- name: vishali
+  DOB: "19-06-1993"
+  address:
+    - add1:
+        street: allagadda
+        place: allagadda
+        city: nandyal
+    email: s.vishaliviswanath@gmail.com
+    - add2:
+        street: allagadda
+        place: allagadda
+        city: nandyal
+    email: s.vishaliviswanath@gmail.com
+  
+
