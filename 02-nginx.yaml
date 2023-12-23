@@ -1,14 +1,14 @@
-- name: install nginx
+- name: install net-tools
   hosts: web
   become: yes
   tasks:
-  - name: install nginx
+  - name: install net-tools
     ansible.builtin.package:
-      name: nginx
+      name: net-tools
       state: present
   - name: stop nginx
     ansible.builtin.service:
-      name: nginx
+      name: net-tools
       state: stopped
   - name: nginx start
     ansible.builtin.service:
