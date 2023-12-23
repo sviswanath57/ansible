@@ -8,9 +8,6 @@
 [localhost]
 localhost
 
-[localhost:vars]
-name1="Viswanath"
-name2="Siliveru"
 
 
 [roboshop:children]
