@@ -6,11 +6,12 @@
     ansible.builtin.package:
       name: net-tools
       state: present
-  - name: stop nginx
+  - name: net-tools start
+    ansible.builtin.service:
+      name: net-tools
+      state: started
+  - name: stop net-tools
     ansible.builtin.service:
       name: net-tools
       state: stopped
-  - name: nginx start
-    ansible.builtin.service:
-      name: nginx
-      state: started
+  
