@@ -7,6 +7,6 @@
     - name: PASSWORD
       prompt: "Enter password"
       private: true
-  taks: Enering the variables from command prompt
+  tasks: Enering the variables from command prompt
     ansible.builtin.debug:
       msg: "User name {{USERNAME}} and password is {{PASSWORD}}"
