@@ -1,24 +1,19 @@
 {
-"name": "viswanath",
-"DOB": "14-11-1988",
-"address":
-    {
-    "street": "T.B Road",
-    "place": "Allagadda",
-    "city": "nandyal",
-    "type": "home"
-    }
-}
-
-{
     "name": "viswanath",
     "DOB": "14-11-1988",
     "address": [
-        {
-        "street": "T.B Road",
-        "place": "Allagadda",
-        "city": "nandyal",
-        "type": "office"
-        }
+      {
+         "street": "T.B Road",
+         "place": "Allagadda",
+         "city": "nandyal",
+         "type": "office"
+      },
+      {
+         "street": "T.B Road",
+         "place": "Allagadda",
+         "city": "nandyal",
+         "type": "office",
+         "gender": "male"
+      }
     ]
 }
