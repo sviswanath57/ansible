@@ -6,4 +6,6 @@
   tasks:
     - name: Print variable test
       ansible.builtin.debug:
-        msg: "my name is {{name1}} & {{name2}}"
+        msg:
+          - "my name is {{name1}}"
+          - "my name is {{name2}}"
