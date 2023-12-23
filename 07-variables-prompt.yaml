@@ -3,7 +3,7 @@
   var_prompt:
     - name: USERNAME
       prompt: "Enter user name"
-      prviate: false
+      private: false
     - name: PASSWORD
       prompt: "Enter password"
       private: true
