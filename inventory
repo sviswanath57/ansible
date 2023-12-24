@@ -6,7 +6,8 @@
 198.168.23.6
 
 [localhost]
-localhost
+localhost:name1="Iventory localhost"
+localhost:name2="Iventory localhost"
 
 
 
