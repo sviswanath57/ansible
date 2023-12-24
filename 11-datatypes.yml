@@ -14,10 +14,10 @@
   
   tasks:
     ansible.builtin.debug:
-      msg: "{{Name}}"
+      - msg: "{{Name}}"
 
-      msg: "{{skill}}"
+      - msg: "{{skill}}"
 
-      msg: "{{Experience}}"
+      - msg: "{{Experience}}"
  
-      msg: "{{Bool}}"
+      - msg: "{{Bool}}"
