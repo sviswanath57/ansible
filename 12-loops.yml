@@ -2,7 +2,7 @@
   hosts: localhost
   tasks: user check
   - name: ansible.builtin.command: id roboshop
-      register: out-user
+    register: out-user
 
     - name: check user
       ansible.builtin.debug:
