@@ -10,7 +10,7 @@
       devops: 2
       windows: 10
       vmware: 10
-    Boolean: true
+    Trainer: true
   tasks:
     - name: print key
       ansible.builtin.debug:
