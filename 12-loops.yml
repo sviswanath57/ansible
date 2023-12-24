@@ -3,7 +3,7 @@
   tasks:
   - name: check roboshot user
     ansible.builtin.command: id roboshop
-    register: out-user
+    register: "out-user"
 
   - name: print user
     ansible.builtin.debug:
