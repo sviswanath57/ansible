@@ -4,6 +4,7 @@
   - name: check roboshot user
     ansible.builtin.command: id viswa
     register: "out"
+    ignore_errors: true
 
   - name: print user
     ansible.builtin.debug:
