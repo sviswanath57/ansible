@@ -10,3 +10,10 @@
     ansible.builtin.debug:
       msg: "User name is {{out}}"
 
+  - name: check user exist or not
+    ansible.builtin.debug:
+      msg: "User name is {{out.rc}}"  
+  
+  
+  
+
