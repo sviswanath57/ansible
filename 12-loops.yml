@@ -3,9 +3,9 @@
   tasks:
   - name: check roboshot user
     ansible.builtin.command: id roboshop
-    register: "out-user"
+    register: "out"
 
   - name: print user
     ansible.builtin.debug:
-      msg: "User name is {{out-user}}"
+      msg: "User name is {{out}}"
 
