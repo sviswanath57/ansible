@@ -14,7 +14,7 @@
   tasks:
     - name: data types
       ansible.builtin.debug:
-        - msg: '{{Name}}'
-        - msg: '{{skill}}'
-        - msg: '{{Experience}}'
-        - msg: '{{Bool}}'
+        - msg: "{{Name}}"
+        - msg: "{{skill}}"
+        - msg: "{{Experience}}"
+        - msg: "{{Bool}}"
