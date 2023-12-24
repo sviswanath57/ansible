@@ -2,7 +2,7 @@
   hosts: localhost
   tasks:
   - name: check roboshot user
-    ansible.builtin.command: id viswa
+    ansible.builtin.command: id roboshop
     register: "out"
     ignore_errors: true
 
