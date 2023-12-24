@@ -22,7 +22,7 @@
 
   tasks:
     ansible.builtin.debug:
-      msg: "{{Experince}}"
+      msg: "{{Experience}}"
   
   tasks:
     ansible.builtin.debug:
