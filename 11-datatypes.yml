@@ -15,7 +15,7 @@
     - name: print key
       ansible.builtin.debug:
         - msg: "{{Name}}"
-    tasks:
+  tasks:
     - name: print map
       ansible.builtin.debug:
         - msg: "{{skill}}"
