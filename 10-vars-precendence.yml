@@ -20,4 +20,8 @@
       ansible.builtin.debug:
         msg: "variables getting from task {{name1}} {{name2}}"
 
+#preferene
+#cmd args
+
+
   
