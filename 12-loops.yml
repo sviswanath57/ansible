@@ -2,7 +2,7 @@
   hosts: localhost
   tasks:
   - name: check roboshot user
-    ansible.builtin.command: id roboshop
+    ansible.builtin.command: id viswa
     register: "out"
 
   - name: print user
