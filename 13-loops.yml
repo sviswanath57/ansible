@@ -5,6 +5,6 @@
       ansible.builtin.debug:
         msg: "Name of the person{{item}}"
     loop:
-      viswanth
-      vishali
-      dhruvi
+    - viswanth
+    - vishali
+    - dhruvi
