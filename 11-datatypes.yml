@@ -16,14 +16,8 @@
     ansible.builtin.debug:
       msg: "{{Name}}"
 
-  tasks:
-    ansible.builtin.debug:
       msg: "{{skill}}"
 
-  tasks:
-    ansible.builtin.debug:
       msg: "{{Experience}}"
-  
-  tasks:
-    ansible.builtin.debug:
+ 
       msg: "{{Bool}}"
