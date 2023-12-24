@@ -14,16 +14,16 @@
   tasks:
     - name: print key
       ansible.builtin.debug:
-        - msg: "{{Name}}"
+        msg: "{{Name}}"
   tasks:
     - name: print map
       ansible.builtin.debug:
-        - msg: "{{skill}}"
+        msg: "{{skill}}"
   tasks:
     - name: print list
       ansible.builtin.debug:
-        - msg: "{{Experience}}"
+        msg: "{{Experience}}"
   tasks:
     - name: print bool
       ansible.builtin.debug:      
-        - msg: "{{Bool}}"
+        msg: "{{Bool}}"
