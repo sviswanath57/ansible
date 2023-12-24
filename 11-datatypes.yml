@@ -23,6 +23,6 @@
         msg: "{{Experience}}"
     - name: print bool
       ansible.builtin.debug:      
-        - msg: 
-          "{{Trainer}}"
-          "{{Name}}"
+        msg: 
+        - "{{Trainer}}"
+        - "{{Name}}"
