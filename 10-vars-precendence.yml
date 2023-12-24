@@ -1,8 +1,8 @@
 - name: Variable precedence check
   hosts: localhost
-  vars:
-    name1: "viswanath Play"
-    name2: "siliveru Play"
+  # vars:
+  #   name1: "viswanath Play"
+  #   name2: "siliveru Play"
   # vars_files:
   #   variables.yaml
   # vars_prompt:
