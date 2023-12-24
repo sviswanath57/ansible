@@ -3,8 +3,8 @@
   vars:
     name1: "viswanath Play"
     name2: "siliveru Play"
-  vars_files:
-    variables.yaml
+  # vars_files:
+  #   variables.yaml
   vars_prompt:
     - name: name1
       prompt: "Enter user name prompt:"
@@ -21,7 +21,10 @@
         msg: "variables getting from task {{name1}} {{name2}}"
 
 #preferene
-#cmd args
+  #cmd args
+  #task
+  #file
+
 
 
   
