@@ -12,9 +12,18 @@
       vmware: 10
     Boolean: true
   tasks:
-    - name: data types
+    - name: print key
       ansible.builtin.debug:
         - msg: "{{Name}}"
+    tasks:
+    - name: print map
+      ansible.builtin.debug:
         - msg: "{{skill}}"
+  tasks:
+    - name: print list
+      ansible.builtin.debug:
         - msg: "{{Experience}}"
+  tasks:
+    - name: print bool
+      ansible.builtin.debug:      
         - msg: "{{Bool}}"
