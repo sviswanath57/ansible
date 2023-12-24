@@ -7,9 +7,9 @@
     - Windows
     - VMware
     Experience:
-      devops
-      windows
-      vmware
+      devops: 2
+      windows: 10
+      vmware: 10
     Bool: true
   
   tasks:
