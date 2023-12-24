@@ -26,4 +26,4 @@
   tasks:
     - name: print bool
       ansible.builtin.debug:      
-        msg: "{{Bool}}"
+        msg: "{{Trainer}}"
