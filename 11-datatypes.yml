@@ -3,9 +3,9 @@
   vars:
     Name: S Viswanath
     skill:
-      - devops
-      - Windows
-      - VMware
+    - devops
+    - Windows
+    - VMware
     Experience:
       devops: 2
       windows: 10
