@@ -1,23 +1,19 @@
 - name: checking data types
   hosts: localhost
   vars:
-    Name: "S Viswanath"
+    Name: S Viswanath
     skill:
-    - devops
-    - Windows
-    - VMware
+      - devops
+      - Windows
+      - VMware
     Experience:
       devops: 2
       windows: 10
       vmware: 10
     Bool: true
-  
   tasks:
     ansible.builtin.debug:
-      - msg: "{{Name}}"
-
-      - msg: "{{skill}}"
-
-      - msg: "{{Experience}}"
- 
-      - msg: "{{Bool}}"
+      - msg: '{{Name}}'
+      - msg: '{{skill}}'
+      - msg: '{{Experience}}'
+      - msg: '{{Bool}}'
