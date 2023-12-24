@@ -14,9 +14,9 @@
       private: false
   tasks:
     - name: variables from task
-      vars:
-        name1: "viswanath"
-        name2: "siliveru"  
+      # vars:
+      #   name1: "viswanath"
+      #   name2: "siliveru"  
       ansible.builtin.debug:
         msg: "variables getting from task {{name1}} {{name2}}"
 
