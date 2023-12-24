@@ -1,0 +1,12 @@
+- name: Unisntll / Install packages
+  hosts: localhost
+  become: yes
+  tasks:
+    - name: loop with packages
+      ansible.builtin.package:
+        name: "{{item.name}}"
+        # state: present
+      loop:
+      - {name: 'git', state: 'present'}
+      - {name: 'mysql', state: 'absent'}
+      - {name: 'net-tools', state: 'absent'}
