@@ -1,6 +1,7 @@
 - name: Conditions
   hosts: localhost
   tasks:
+  
   - name: check roboshot user
     ansible.builtin.command: id roboshop
     register: "out"
@@ -13,10 +14,11 @@
   - name: check user exit output
     ansible.builtin.debug:
       msg: "User name is {{out.rc}}"
+
   - name: check user exist or not
     ansible.builtin.user:
       - name: roboshop
-    when out !=0
+    when: out.rc !=0
   
   
   
