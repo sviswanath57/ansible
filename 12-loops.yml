@@ -1,0 +1,10 @@
+- name: Conditions
+  hosts: localhost
+  tasks: user check
+  - name: ansible.builtin.command: id roboshop
+      register: out-user
+
+    - name: check user
+      ansible.builtin.debug:
+        msg: "User name is {{out-user}}"
+
