@@ -12,6 +12,7 @@
       vmware: 10
     Bool: true
   tasks:
+    -name: data types
     ansible.builtin.debug:
       - msg: '{{Name}}'
       - msg: '{{skill}}'
