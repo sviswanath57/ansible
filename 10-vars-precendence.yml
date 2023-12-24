@@ -1,0 +1,31 @@
+- name: Variable precedence check
+  hosts: localhost
+  vars:
+    name1: "viswanath"
+    name2: "siliveru"
+  vars_files:
+    - name: variables from File
+      variables.yaml
+      ansible.builtin.debug:
+        msg: "Variable getting from File {{name1}} {{name2}}"
+  vars:
+    - name: variables from File
+      ansible.builtin.debug:
+        msg: "Variable getting from CMD args {{name1}} {{name2}}"
+  vars_prompt:
+    - name: USERNAME
+      prompt: "Enter user name:"
+      private: false
+    - name: LASTNAME
+      prompt: "ENter last name"
+      private: false
+  tasks:
+    - name: variables from Prompt
+      ansible.bulting.debug:
+        msg: "Variable getting from promt {{USERNAME}} {{LASTNAME}}"
+  tasks:
+    - name: variables from Play
+      ansible.builtin.debug:
+        msg: "variables getting from paly {{name1}} {{name2}}"
+
+  
