@@ -1,11 +1,11 @@
 - name: Conditions
   hosts: localhost
   tasks: user check
-  - name:
+  - name: check roboshot user
     ansible.builtin.command: id roboshop
     register: out-user
 
-  - name: check user
+  - name: print user
     ansible.builtin.debug:
       msg: "User name is {{out-user}}"
 
