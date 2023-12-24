@@ -4,7 +4,7 @@
     - name: loop values
       ansible.builtin.debug:
         msg: "Name of the person{{item}}"
-    loop:
-    - viswanth
-    - vishali
-    - dhruvi
+      loop:
+      - viswanth
+      - vishali
+      - dhruvi
