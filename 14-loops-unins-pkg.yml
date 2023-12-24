@@ -9,4 +9,4 @@
       loop:
       - {name: 'git', state: 'present'}
       - {name: 'mysql', state: 'absent'}
-      - {name: 'net-tools', state: 'present'}
+      - {name: 'net-tools.x86_64', state: 'absent'}
