@@ -1,6 +1,6 @@
 - name: Conditions
   hosts: localhost
-  tasks: user check
+  tasks:
   - name: check roboshot user
     ansible.builtin.command: id roboshop
     register: out-user
