@@ -13,16 +13,16 @@
       ansible.builtin.debug:
         msg: "Variable getting from CMD args {{name1}} {{name2}}"
   vars_prompt:
-    - name: USERNAME
+    - name: name1
       prompt: "Enter user name:"
       private: false
-    - name: LASTNAME
+    - name: name2
       prompt: "ENter last name"
       private: false
   tasks:
     - name: variables from Prompt
       ansible.bulting.debug:
-        msg: "Variable getting from promt {{USERNAME}} {{LASTNAME}}"
+        msg: "Variable getting from promt {{name1}} {{name2}}"
   tasks:
     - name: variables from Play
       ansible.builtin.debug:
