@@ -5,7 +5,7 @@
     ansible.builtin.command: id roboshop
     register: out-user
 
-    - name: check user
-      ansible.builtin.debug:
-        msg: "User name is {{out-user}}"
+  - name: check user
+    ansible.builtin.debug:
+      msg: "User name is {{out-user}}"
 
