@@ -1,0 +1,10 @@
+- name: loops
+  hosts: localhost
+  tasks:
+    - name: loop with packages
+      ansible.builtin.package:
+        msg: "Name of the person {{item}}"
+      loop:
+      - git
+      - mysql
+      - net-tools
