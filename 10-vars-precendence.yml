@@ -5,13 +5,13 @@
     name2: "siliveru Play"
   # vars_files:
   #   variables.yaml
-  vars_prompt:
-    - name: name1
-      prompt: "Enter user name prompt:"
-      private: false
-    - name: name2
-      prompt: "ENter last name prompt"
-      private: false
+  # vars_prompt:
+  #   - name: name1
+  #     prompt: "Enter user name prompt:"
+  #     private: false
+  #   - name: name2
+  #     prompt: "ENter last name prompt"
+  #     private: false
   tasks:
     - name: variables from task
       # vars:
@@ -24,6 +24,7 @@
   #cmd args
   #task
   #file
+  #prompt
 
 
 
